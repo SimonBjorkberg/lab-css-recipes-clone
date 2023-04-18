@@ -43,9 +43,10 @@ hr {
 }
 #centered-headertext {
   position: absolute;
+  display: flex;
+  width: 40%;
+  justify-content: center;
   top: 16%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
   font-size: 60px;
 }

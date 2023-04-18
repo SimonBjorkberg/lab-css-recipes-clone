@@ -1,9 +1,80 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, h3, p, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
 }
+body {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(45, 45, 45);
+}
+hr {
+  margin: 0px;
+  width: 75%;
+  margin: auto;
+}
+
+/*Header styles*/
+.header img {
+  display: flex;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+.header h1 {
+  position: absolute;
+  color: white;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  top: 16%;
+  font-weight: lighter;
+}
+
+/*Section styles*/
+.sections {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  line-height: 1.4em;
+}
+.sections img {
+  display: flex;
+  margin: auto;
+  width: 40%;
+  padding: 25px 0 25px 0;
+}
+.sections h3 {
+  width: 75%;
+  margin: auto;
+  padding: 25px 0 25px 0;
+  font-weight: lighter;
+}
+
+/*Section one Paragraph*/
+#section-one p {
+  width: 75%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+/*Section two list*/
+#section-two ul {
+  list-style-type: '- ';
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+/*Section three list*/
+#section-three ul {
+  width: 75%;
+  list-style: decimal;
+  margin: auto;
+  padding-bottom: 50px;
+} 
